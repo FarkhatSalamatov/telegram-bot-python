@@ -57,7 +57,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # === MAIN ===
 
 if __name__ == "__main__":
-    TOKEN = "8637316009:AAGJQydK_B9Aw9ocvBnu8UJ0podTvTHnXnE"
+    TOKEN = "YOUR_BOT_TOKEN_HERE"  # Replace with your token from @BotFather
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
